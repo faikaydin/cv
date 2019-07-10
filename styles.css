@@ -2,6 +2,12 @@ body,
 h1 {
   margin: 0;
 }
+body {
+  overflow-x: hidden;
+}
+* {
+  font-family: semplicita_light;
+}
 @font-face {
   font-family: "semplicita_light";
   src: url("assets/Semplicita/Semplicita\ Light.otf");
@@ -35,7 +41,9 @@ a {
   background: url("./assets/background.svg") no-repeat fixed;
   background-size: cover;
   height: 100vh;
-  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 .gradient {
   text-transform: uppercase;
@@ -45,17 +53,15 @@ a {
 }
 
 .arrow {
-  position: relative;
-  top: 70%;
-  left: 48%;
+  margin: 0 auto;
   animation: move 1.5s ease-in-out infinite;
+  height: 100px;
 }
 
 .Education {
   background-color: pink;
   color: white;
   height: 100vh;
-  width: 100vw;
 }
 
 .Name {
@@ -65,7 +71,7 @@ a {
   letter-spacing: 3px;
   position: relative;
   text-align: center;
-  top: 35%;
+  height: 70px;
 }
 
 .Discription {
@@ -75,7 +81,7 @@ a {
   letter-spacing: 2px;
   position: relative;
   text-align: center;
-  top: 40%;
+  height: 300px;
 }
 
 .landing_desc {
@@ -92,4 +98,24 @@ a {
   100% {
     transform: translate(0, 0px);
   }
+}
+
+.button_div {
+  margin: 0 auto;
+  height: 150px;
+}
+
+.scroll_button {
+  background-color: rgba(0, 0, 0, 0.05);
+  border: 1;
+  color: rgb(223, 223, 229);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 100px;
+  width: 250px;
+  height: 50px;
+  outline: none;
+  cursor: pointer;
 }

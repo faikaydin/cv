@@ -4,6 +4,7 @@ h1 {
 }
 body {
   overflow-x: hidden;
+  background-color: ghostwhite;
 }
 * {
   font-family: semplicita_light;
@@ -25,7 +26,7 @@ body {
   letter-spacing: 1px;
   text-align: right;
   width: 100%;
-  height: 60px;
+  height: 7vh;
   background: url("./assets/background.svg") no-repeat fixed;
   position: fixed;
   z-index: 1;
@@ -59,11 +60,68 @@ a {
 }
 
 .Education {
-  background-color: pink;
-  color: white;
-  height: 100vh;
+  background-color: ghostwhite;
+  height: 93vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  /* border-bottom: 2px solid black; */
 }
 
+.hard_header {
+  height: 10%;
+}
+
+.edu_content {
+  height: 90%;
+  display: flex;
+  flex-direction: row;
+}
+
+.content_left {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 50%;
+  margin-top: 50px;
+  margin-left: 0;
+}
+
+.edu {
+  background-color: ghostwhite;
+  height: 33.33%;
+  width: 100%;
+  padding-left: 25px;
+}
+.border {
+  border-width: 3px;
+  border-style: solid;
+
+  border-image: linear-gradient(to bottom, #0064a6, rgba(0, 0, 0, 0.3)) 1 100%;
+}
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: #08456d;
+  border-radius: 50%;
+  margin-left: -32px;
+  margin-top: -5px;
+}
+
+.content_right {
+  margin-top: 50px;
+
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 50%;
+}
+
+h2 {
+  font-family: semplicita_light;
+  font-size: 40px;
+  letter-spacing: 3px;
+}
 .Name {
   color: rgb(248, 248, 255);
   font-family: semplicita_light;
@@ -118,4 +176,56 @@ a {
   height: 50px;
   outline: none;
   cursor: pointer;
+}
+
+.Experience {
+  background-color: ghostwhite;
+  height: 93vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 100px;
+}
+
+h3.left {
+  font-family: semplicita_light;
+  font-size: 20px;
+  letter-spacing: 2px;
+  width: 90%;
+  text-align: right;
+  margin-bottom: 40px;
+  margin-top: -2px;
+}
+
+h4.left {
+  font-family: semplicita_bold;
+  font-size: 17px;
+  letter-spacing: 1px;
+  width: 90%;
+  text-align: right;
+}
+
+h3.right {
+  font-family: semplicita_light;
+  font-size: 20px;
+  letter-spacing: 2px;
+  width: 65%;
+  text-align: left;
+  margin-bottom: 40px;
+  margin-top: -12px;
+}
+
+h4.right {
+  font-family: semplicita_light;
+  font-size: 17px;
+  letter-spacing: 1px;
+  width: 65%;
+  text-align: left;
+  line-height: 24px;
+  margin: 10px 10px 10px 20px;
+}
+
+.Skills {
+  background-color: aquamarine;
+  height: 93vh;
 }

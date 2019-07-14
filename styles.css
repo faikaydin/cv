@@ -22,7 +22,7 @@ body {
 .navbar {
   background-color: rgb(17, 107, 157);
   font-family: semplicita_light;
-  font-size: 20px;
+  font-size: 16px;
   letter-spacing: 1px;
   text-align: right;
   width: 100%;
@@ -61,7 +61,7 @@ a {
 
 .Education {
   background-color: ghostwhite;
-  height: 80vh;
+  height: 90vh;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -119,7 +119,7 @@ a {
 
 h2 {
   font-family: semplicita_light;
-  font-size: 40px;
+  font-size: 32px;
   letter-spacing: 3px;
 }
 .Name {
@@ -135,7 +135,7 @@ h2 {
 .Discription {
   color: rgb(223, 223, 229);
   font-family: semplicita_light;
-  font-size: 20px;
+  font-size: 16px;
   letter-spacing: 2px;
   position: relative;
   text-align: center;
@@ -170,7 +170,7 @@ h2 {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 14px;
   border-radius: 100px;
   width: 250px;
   height: 50px;
@@ -180,7 +180,7 @@ h2 {
 
 .Experience {
   background-color: ghostwhite;
-  height: 140vh;
+  height: 170vh;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -189,7 +189,7 @@ h2 {
 
 h3.left {
   font-family: semplicita_light;
-  font-size: 20px;
+  font-size: 16px;
   letter-spacing: 2px;
   width: 90%;
   text-align: right;
@@ -199,7 +199,7 @@ h3.left {
 
 h4.left {
   font-family: semplicita_bold;
-  font-size: 17px;
+  font-size: 16px;
   letter-spacing: 1px;
   width: 90%;
   text-align: right;
@@ -207,7 +207,7 @@ h4.left {
 
 h3.right {
   font-family: semplicita_light;
-  font-size: 20px;
+  font-size: 16px;
   letter-spacing: 2px;
   width: 65%;
   text-align: left;
@@ -217,7 +217,7 @@ h3.right {
 
 h4.right {
   font-family: semplicita_light;
-  font-size: 17px;
+  font-size: 16px;
   letter-spacing: 1px;
   width: 65%;
   text-align: left;

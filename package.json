@@ -2,7 +2,7 @@
   "name": "cv",
   "version": "0.1.0",
   "private": true,
-  "homepage": "www.faikaydin.me",
+  "homepage": "https://www.faikaydin.me",
   "dependencies": {
     "@babel/runtime": "^7.5.5",
     "gh-pages": "2.0",

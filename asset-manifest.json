@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.1aa3c0e5.chunk.css",
-    "main.js": "/static/js/main.1cced1f9.chunk.js",
-    "main.js.map": "/static/js/main.1cced1f9.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.1c14bdce.chunk.js": "/static/js/2.1c14bdce.chunk.js",
-    "static/js/2.1c14bdce.chunk.js.map": "/static/js/2.1c14bdce.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.5532e5392e8cb4d526f6409f457fc44f.js": "/precache-manifest.5532e5392e8cb4d526f6409f457fc44f.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.1aa3c0e5.chunk.css.map": "/static/css/main.1aa3c0e5.chunk.css.map",
-    "static/media/Arrow.svg": "/static/media/Arrow.50d012b7.svg",
-    "static/media/Download.svg": "/static/media/Download.924e146d.svg",
-    "static/media/Faik-Canberk-AYDIN.pdf": "/static/media/Faik-Canberk-AYDIN.fd919af7.pdf",
-    "static/media/Navigation.scss": "/static/media/background.43cc66af.svg",
-    "static/media/github-white.svg": "/static/media/github-white.c76283d8.svg"
+    "main.css": "www.faikaydin.me/static/css/main.ab3c825f.chunk.css",
+    "main.js": "www.faikaydin.me/static/js/main.9bf9b68c.chunk.js",
+    "main.js.map": "www.faikaydin.me/static/js/main.9bf9b68c.chunk.js.map",
+    "runtime~main.js": "www.faikaydin.me/static/js/runtime~main.e3bb3e27.js",
+    "runtime~main.js.map": "www.faikaydin.me/static/js/runtime~main.e3bb3e27.js.map",
+    "static/js/2.1c14bdce.chunk.js": "www.faikaydin.me/static/js/2.1c14bdce.chunk.js",
+    "static/js/2.1c14bdce.chunk.js.map": "www.faikaydin.me/static/js/2.1c14bdce.chunk.js.map",
+    "index.html": "www.faikaydin.me/index.html",
+    "precache-manifest.da5c1f7e06421e574e30ba7948bf709c.js": "www.faikaydin.me/precache-manifest.da5c1f7e06421e574e30ba7948bf709c.js",
+    "service-worker.js": "www.faikaydin.me/service-worker.js",
+    "static/css/main.ab3c825f.chunk.css.map": "www.faikaydin.me/static/css/main.ab3c825f.chunk.css.map",
+    "static/media/Arrow.svg": "www.faikaydin.me/static/media/Arrow.50d012b7.svg",
+    "static/media/Download.svg": "www.faikaydin.me/static/media/Download.924e146d.svg",
+    "static/media/Faik-Canberk-AYDIN.pdf": "www.faikaydin.me/static/media/Faik-Canberk-AYDIN.fd919af7.pdf",
+    "static/media/Navigation.scss": "www.faikaydin.me/static/media/background.43cc66af.svg",
+    "static/media/github-white.svg": "www.faikaydin.me/static/media/github-white.c76283d8.svg"
   }
 }

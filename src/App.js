@@ -1,82 +1,82 @@
-import React, { useState, useEffect, useRef } from "react"
-import "./App.scss"
-import "./Navigation.scss"
+import React, { useState, useEffect, useRef } from "react";
+import "./App.scss";
+import "./Navigation.scss";
 
-import download from "./assets/Download.svg"
-import arrow from "./assets/Arrow.svg"
+import download from "./assets/Download.svg";
+import arrow from "./assets/Arrow.svg";
 
-import github from "./assets/github-white.svg"
-import resume from "./assets/Faik-Canberk-AYDIN.pdf"
+import github from "./assets/github-white.svg";
+import resume from "./assets/Faik-Canberk-AYDIN.pdf";
 
 function App() {
-  const [checkbox, setCheckbox] = useState(false)
-  const [counter, setCounter] = useState(0)
-  const [science, setScience] = useState(true)
-  const [deep, setDeep] = useState(false)
-  const [data, setData] = useState(false)
-  const [dev, setDev] = useState(false)
-  const [smart, setSmart] = useState(false)
-  const [agent, setAgent] = useState(false)
+  const [checkbox, setCheckbox] = useState(false);
+  const [counter, setCounter] = useState(0);
+  const [science, setScience] = useState(true);
+  const [deep, setDeep] = useState(false);
+  const [data, setData] = useState(false);
+  const [dev, setDev] = useState(false);
+  const [smart, setSmart] = useState(false);
+  const [agent, setAgent] = useState(false);
 
-  const [medical, setMedical] = useState(true)
-  const [gloria, setGloria] = useState(false)
+  const [medical, setMedical] = useState(true);
+  const [gloria, setGloria] = useState(false);
 
   const activeSmart = e => {
-    setSmart(true)
-    setMedical(false)
-    setGloria(false)
-    setAgent(false)
-  }
+    setSmart(true);
+    setMedical(false);
+    setGloria(false);
+    setAgent(false);
+  };
   const activeAgent = e => {
-    setAgent(true)
-    setMedical(false)
-    setGloria(false)
-    setSmart(false)
-  }
+    setAgent(true);
+    setMedical(false);
+    setGloria(false);
+    setSmart(false);
+  };
 
   const activeMedical = e => {
-    setSmart(false)
-    setMedical(true)
-    setGloria(false)
-    setAgent(false)
-  }
+    setSmart(false);
+    setMedical(true);
+    setGloria(false);
+    setAgent(false);
+  };
 
   const activeGloria = e => {
-    setSmart(false)
-    setMedical(false)
-    setGloria(true)
-    setAgent(false)
-  }
+    setSmart(false);
+    setMedical(false);
+    setGloria(true);
+    setAgent(false);
+  };
   const activeScience = e => {
-    setScience(true)
-    setDeep(false)
-    setData(false)
-    setDev(false)
-    setCounter(1)
-  }
+    setScience(true);
+    setDeep(false);
+    setData(false);
+    setDev(false);
+    setCounter(1);
+  };
   const activeDeep = e => {
-    setScience(false)
-    setDeep(true)
-    setData(false)
-    setDev(false)
-    setCounter(2)
-  }
+    setScience(false);
+    setDeep(true);
+    setData(false);
+    setDev(false);
+    setCounter(2);
+  };
   const activeData = e => {
-    setScience(false)
-    setDeep(false)
-    setData(true)
-    setDev(false)
-    setCounter(3)
-  }
+    setScience(false);
+    setDeep(false);
+    setData(true);
+    setDev(false);
+    setCounter(3);
+  };
   const activeDev = e => {
-    setScience(false)
-    setDeep(false)
-    setData(false)
-    setDev(true)
-    setCounter(4)
-  }
+    setScience(false);
+    setDeep(false);
+    setData(false);
+    setDev(true);
+    setCounter(4);
+  };
 
-  const skillRef = useRef()
+  const skillRef = useRef();
   // const fixSection = e =>{
   //   if ()
   //   document.getElementById("container").style.overflow = "hidden"
@@ -119,7 +119,7 @@ function App() {
     //     document.getElementById("container").style.overflow = "scroll"
     //   }
     // }
-  }
+  };
   return (
     <div className="App">
       <div className="navContainer">
@@ -171,7 +171,7 @@ function App() {
             id="menuToggle"
             checked={checkbox}
             onClick={() => {
-              setCheckbox(!checkbox)
+              setCheckbox(!checkbox);
             }}
           />
           <label id="trigger" htmlFor="menuToggle" />
@@ -182,7 +182,7 @@ function App() {
                 href="#education"
                 style={{ margin: "0px", top: "0px" }}
                 onClick={() => {
-                  setCheckbox(!checkbox)
+                  setCheckbox(!checkbox);
                 }}
               >
                 <span>Education</span>
@@ -194,7 +194,7 @@ function App() {
                 href="#experience"
                 style={{ margin: "0px", top: "0px" }}
                 onClick={() => {
-                  setCheckbox(!checkbox)
+                  setCheckbox(!checkbox);
                 }}
               >
                 <span>Experience</span>
@@ -206,7 +206,7 @@ function App() {
                 href="#skills"
                 style={{ margin: "0px", top: "0px" }}
                 onClick={() => {
-                  setCheckbox(!checkbox)
+                  setCheckbox(!checkbox);
                 }}
               >
                 <span>Skills</span>
@@ -217,7 +217,7 @@ function App() {
                 href="#projects"
                 style={{ margin: "0px", top: "0px" }}
                 onClick={() => {
-                  setCheckbox(!checkbox)
+                  setCheckbox(!checkbox);
                 }}
               >
                 <span>Projects</span>
@@ -228,7 +228,7 @@ function App() {
                 href="#contact"
                 style={{ margin: "0px", top: "0px" }}
                 onClick={() => {
-                  setCheckbox(!checkbox)
+                  setCheckbox(!checkbox);
                 }}
               >
                 <span>Contact</span>
@@ -255,7 +255,7 @@ function App() {
             <p className="landing_desc">
               <span className="gradient">Data Scientist</span> & Machine
               Learning Engineer | Active Research in
-              <span className="gradient">Deep Learning</span>
+              <span className="gradient"> Deep Learning</span>
             </p>
             <p>
               Whose Also Into <span className="gradient">Art & Design!</span>
@@ -804,7 +804,7 @@ function App() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

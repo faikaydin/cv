@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "74dd8d9810d8e2a8670a214f558b9181",
+    "revision": "166176da55780f9f061ba6a226664c91",
     "url": "/index.html"
   },
   {
-    "revision": "433e4839701ba7e81561",
+    "revision": "e976e8a565cc3bcf2585",
     "url": "/static/css/main.1aa3c0e5.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.1c14bdce.chunk.js"
   },
   {
-    "revision": "433e4839701ba7e81561",
-    "url": "/static/js/main.d5ce157c.chunk.js"
+    "revision": "e976e8a565cc3bcf2585",
+    "url": "/static/js/main.653d805b.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Download.924e146d.svg"
   },
   {
-    "revision": "fd919af758059183a375aa7eaa30d27b",
-    "url": "/static/media/Faik-Canberk-AYDIN.fd919af7.pdf"
+    "revision": "2039cba926f811e9d99194788543a044",
+    "url": "/static/media/Faik-Canberk-AYDIN.2039cba9.pdf"
   },
   {
     "revision": "43cc66af3fa1fe50caf34b42d3b6275a",

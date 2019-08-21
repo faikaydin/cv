@@ -627,14 +627,14 @@ function App() {
                     </h4>
                     <h4 className="right">
                       <a
-                        href="https://github.com/faikezra/medical-multimodal-with-transfer-learning"
+                        href="https://github.com/faikaydin/medical-multimodal-with-transfer-learning"
                         style={{
                           color: "black",
                           textDecoration: "underline",
                           overflowWrap: "break-word"
                         }}
                       >
-                        https://github.com/faikezra/medical-multimodal-with-transfer-learning
+                        https://github.com/faikaydin/medical-multimodal-with-transfer-learning
                       </a>
                     </h4>
                   </div>
@@ -689,14 +689,14 @@ function App() {
                     </h4>
                     <h4 className="right">
                       <a
-                        href="https://github.com/faikezra/article-classification-with-transfer-learning"
+                        href="https://github.com/faikaydin/article-classification-with-transfer-learning"
                         style={{
                           color: "black",
                           textDecoration: "underline",
                           overflowWrap: "break-word"
                         }}
                       >
-                        https://github.com/faikezra/article-classification-with-transfer-learning
+                        https://github.com/faikaydin/article-classification-with-transfer-learning
                       </a>
                     </h4>
                   </div>
@@ -793,7 +793,7 @@ function App() {
                     </span>
                   </h4>
                   <div className="icons">
-                    <a href="https://github.com/faikezra/">
+                    <a href="https://github.com/faikaydin/">
                       <img src={github} alt="Github" height="30px" />
                     </a>
                   </div>

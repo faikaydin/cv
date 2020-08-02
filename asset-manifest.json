@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.1aa3c0e5.chunk.css",
-    "main.js": "/static/js/main.b531c3fe.chunk.js",
-    "main.js.map": "/static/js/main.b531c3fe.chunk.js.map",
+    "main.css": "/static/css/main.a4034ceb.chunk.css",
+    "main.js": "/static/js/main.e7af7b6f.chunk.js",
+    "main.js.map": "/static/js/main.e7af7b6f.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
     "static/js/2.1c14bdce.chunk.js": "/static/js/2.1c14bdce.chunk.js",
     "static/js/2.1c14bdce.chunk.js.map": "/static/js/2.1c14bdce.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.e44c9373eb9023f6dbe8b29638dbae7c.js": "/precache-manifest.e44c9373eb9023f6dbe8b29638dbae7c.js",
+    "precache-manifest.1321dde359ec0dfd914e75e640d2d7a3.js": "/precache-manifest.1321dde359ec0dfd914e75e640d2d7a3.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.1aa3c0e5.chunk.css.map": "/static/css/main.1aa3c0e5.chunk.css.map",
+    "static/css/main.a4034ceb.chunk.css.map": "/static/css/main.a4034ceb.chunk.css.map",
     "static/media/Arrow.svg": "/static/media/Arrow.50d012b7.svg",
     "static/media/Download.svg": "/static/media/Download.924e146d.svg",
-    "static/media/Faik-Canberk-AYDIN.pdf": "/static/media/Faik-Canberk-AYDIN.2039cba9.pdf",
+    "static/media/Faik-Canberk-AYDIN.pdf": "/static/media/Faik-Canberk-AYDIN.a3ae4bed.pdf",
     "static/media/Navigation.scss": "/static/media/background.43cc66af.svg",
     "static/media/github-white.svg": "/static/media/github-white.c76283d8.svg"
   }

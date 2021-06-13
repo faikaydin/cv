@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.0bc8a2f3.chunk.css",
+    "main.css": "/static/css/main.5801cf16.chunk.css",
     "main.js": "/static/js/main.d04b4af4.chunk.js",
     "main.js.map": "/static/js/main.d04b4af4.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
@@ -8,9 +8,9 @@
     "static/js/2.1c14bdce.chunk.js": "/static/js/2.1c14bdce.chunk.js",
     "static/js/2.1c14bdce.chunk.js.map": "/static/js/2.1c14bdce.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.3f3a085ce828fee90d12e9156e24af2a.js": "/precache-manifest.3f3a085ce828fee90d12e9156e24af2a.js",
+    "precache-manifest.33fd132692d57101666b0bfbdf21e393.js": "/precache-manifest.33fd132692d57101666b0bfbdf21e393.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.0bc8a2f3.chunk.css.map": "/static/css/main.0bc8a2f3.chunk.css.map",
+    "static/css/main.5801cf16.chunk.css.map": "/static/css/main.5801cf16.chunk.css.map",
     "static/media/Arrow.svg": "/static/media/Arrow.50d012b7.svg",
     "static/media/Download.svg": "/static/media/Download.924e146d.svg",
     "static/media/Faik-Canberk-AYDIN.pdf": "/static/media/Faik-Canberk-AYDIN.e86321c6.pdf",
